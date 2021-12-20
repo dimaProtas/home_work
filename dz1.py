@@ -1,11 +1,11 @@
 duration = 154
 
 if duration < 60:
-    print(f'{duration} секунды')
+    print(f'{duration} секунд')
 elif duration > 60 and duration < 3601:
     mm = duration // 60
     ss = duration % 60
-    print(f'{mm} минут, {ss} секунда')
+    print(f'{mm} минут, {ss} секунд')
 elif duration > 3600 and duration < 86401:
     mm = duration // 60
     hh = mm // 60
